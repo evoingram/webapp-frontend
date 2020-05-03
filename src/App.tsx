@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './css/App.css';
 import './css/mainWindow.css';
 import MenuBar from './uniques/menuBar';
@@ -9,10 +8,13 @@ import PriceCalculator from './uniques/priceCalculator';
 
 
 function App() {
+	/*
   let helloWorld: string;
   let learnReact: string;
   helloWorld = 'Hello World!';
   learnReact = 'Learn React';
+
+  */
 	return (
 		<div className="App">
 			<MenuBar />

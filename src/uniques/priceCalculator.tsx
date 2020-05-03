@@ -16,31 +16,31 @@ function calculatePrice() {
     let pageRate: number = 2.65;
 
 	if (audioLength >= 885) {
-		if (turnaroundT == '30') {
+		if (turnaroundT === '30') {
 			pageRate = 2.65;
-		} else if (turnaroundT == '45') {
+		} else if (turnaroundT === '45') {
 			pageRate = 2.5;
-		} else if (turnaroundT == '14') {
+		} else if (turnaroundT === '14') {
 			pageRate = 3.25;
-		} else if (turnaroundT == '7') {
+		} else if (turnaroundT === '7') {
 			pageRate = 3.75;
-		} else if (turnaroundT == '3') {
+		} else if (turnaroundT === '3') {
 			pageRate = 4.25;
-		} else if (turnaroundT == '1') {
+		} else if (turnaroundT === '1') {
 			pageRate = 5.25;
 		}
 	} else {
-		if (turnaroundT == '30') {
+		if (turnaroundT === '30') {
 			pageRate = 2.65;
-		} else if (turnaroundT == '45') {
+		} else if (turnaroundT === '45') {
 			pageRate = 2.5;
-		} else if (turnaroundT == '14') {
+		} else if (turnaroundT === '14') {
 			pageRate = 3.25;
-		} else if (turnaroundT == '7') {
+		} else if (turnaroundT === '7') {
 			pageRate = 3.75;
-		} else if (turnaroundT == '3') {
+		} else if (turnaroundT === '3') {
 			pageRate = 4.25;
-		} else if (turnaroundT == '1') {
+		} else if (turnaroundT === '1') {
 			pageRate = 5.25;
 		}
 	}
@@ -62,14 +62,6 @@ function calculatePrice() {
 	(document.getElementById('tPrice2') as HTMLInputElement).value = dollar.concat(totalStr);
 }
 
-//open one of the hidden pages and close all others
-function openForm(hiddenFormID: any) {
-	var allFormPopups = document.getElementsByClassName('form-popup');
-	for (let x = 0; x < allFormPopups.length; x++) {
-		(document.getElementsByClassName('form-popup')[x] as HTMLInputElement).style.display = 'none';
-	}
-	(document.getElementById(hiddenFormID) as HTMLInputElement).style.display = 'block';
-}
 
 // close one of the hidden pages
 function closeForm(hiddenFormID: any) {
@@ -78,8 +70,6 @@ function closeForm(hiddenFormID: any) {
 
 
 function TStatus() {
-	let helloWorld: string;
-	helloWorld = 'price calculator';
 
 	return (
 		<div id="priceQuote" className="form-popup">

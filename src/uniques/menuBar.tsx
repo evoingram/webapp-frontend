@@ -9,10 +9,6 @@ function openForm() {
 	(document.getElementById('priceQuote') as HTMLInputElement).style.display = 'block';
 }
 
-// close one of the hidden pages
-function closeForm() {
-	(document.getElementById('priceQuote') as HTMLInputElement).style.display = 'none';
-}
 
 function MenuBar() {
   	let homeText: string;
