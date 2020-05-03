@@ -26,6 +26,8 @@ function CaseInfo() {
 				<p>{inputCJurisdiction}</p>
 				<p>{inputCDueDate}</p>
 			</div>
+			<button>Edit Case</button>
+			<p>&nbsp;</p>
 		</div>
 	);
 }

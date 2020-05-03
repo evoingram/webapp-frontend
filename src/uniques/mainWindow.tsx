@@ -22,10 +22,6 @@ function MainWindow() {
 			<div className="border">
 				<CourtDate />
 			</div>
-			<div className="App">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>{helloWorld}</p>
-			</div>
 		</div>
 	);
 }
