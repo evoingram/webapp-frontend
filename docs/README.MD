@@ -17,6 +17,7 @@
   - MenuBar/top
     - buttons (home, calculator, logout)
       - add inside out underline animation
+      - estimate calculator should be modal
     - logo (fix responsive @ small screens)
   - caseBar/left
     - profileInfo

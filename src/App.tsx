@@ -5,6 +5,7 @@ import './css/mainWindow.css';
 import MenuBar from './uniques/menuBar';
 import MainWindow from './uniques/mainWindow';
 import CaseBar from './uniques/caseBar';
+import PriceCalculator from './uniques/priceCalculator';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 					<MainWindow />
 				</div>
 			</div>
+			<PriceCalculator />
 		</div>
 	);
 }

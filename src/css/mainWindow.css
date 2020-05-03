@@ -33,3 +33,40 @@
     margin: 0%;
     min-width: 35%;
 }
+
+.form-popup {
+    display: none;
+    position: fixed;
+    z-index: 99006;
+    bottom: 0px;
+    right: 15px;
+    border: 3px solid #69be28;
+    background-color: #002244;
+    color: #a5acaf;
+    max-height: 75vh;
+    overflow-y: scroll;
+    max-width: 40%;
+}
+
+.form-popup p {
+    font-size: 1.5rem;
+}
+
+.form-popup li {
+    font-weight: bold;
+    background-color: #002244;
+    color: #a5acaf;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.form-popup a {
+    font-weight: bold;
+    background-color: #002244;
+    color: #a5acaf;
+    font-size: 1.5rem;
+}
+
+.form-popup h3 {
+    font-size: 2rem;
+}

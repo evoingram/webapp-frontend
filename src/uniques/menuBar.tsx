@@ -4,6 +4,16 @@ import '../css/App.css';
 import '../css/menuBar.css';
 
 
+//open one of the hidden pages and close all others
+function openForm() {
+	(document.getElementById('priceQuote') as HTMLInputElement).style.display = 'block';
+}
+
+// close one of the hidden pages
+function closeForm() {
+	(document.getElementById('priceQuote') as HTMLInputElement).style.display = 'none';
+}
+
 function MenuBar() {
   	let homeText: string;
   	let eCalcText: string;
@@ -21,7 +31,7 @@ function MenuBar() {
 					</a>
 				</div>
 				<div className="navLinkContainer">
-					<a href="#about" className="navLink">
+				  <a href="#priceQuote" className="navLink" onClick={openForm}>
 						{eCalcText}
 					</a>
 				</div>

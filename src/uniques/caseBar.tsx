@@ -14,12 +14,6 @@ function CaseBar() {
 		  <ProfileInfo />
 		  <button>Add a Case</button>
 		  <CaseInfo />
-			<header className="App-header">
-				<p>{helloWorld}</p>
-				<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-					{learnReact}
-				</a>
-			</header>
 		</div>
   );
 }
