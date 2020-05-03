@@ -1,5 +1,5 @@
 
-# Transcript Web App Front End
+# Transcript Web App Front End (in progress!)
 
 ## [DB Schema](https://dbdesigner.page.link/gbEtfTr1XjgwDa2C7)
 
@@ -11,12 +11,22 @@
 
 ## [Adobe XD Wireframe](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)
 
+## tech stack
+
+- React
+- Redux
+- TypeScript
+- Styled Components
+- Cypress
+- Axios
+
 ## Component Plan
 
 - App
   - MenuBar/top
     - buttons (home, calculator, logout)
       - add inside out underline animation
+      - estimate calculator should be modal
     - logo (fix responsive @ small screens)
   - caseBar/left
     - profileInfo
