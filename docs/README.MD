@@ -1,5 +1,5 @@
 
-# Transcript Web App Front End
+# Transcript Web App Front End (in progress)
 
 ## [DB Schema](https://dbdesigner.page.link/gbEtfTr1XjgwDa2C7)
 
@@ -10,6 +10,15 @@
 ## [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)
 
 ## [Adobe XD Wireframe](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)
+
+## tech stack
+
+- React
+- Redux
+- TypeScript
+- Styled Components
+- Cypress
+- Axios
 
 ## Component Plan
 
