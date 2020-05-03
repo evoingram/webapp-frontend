@@ -14,8 +14,12 @@ function MainWindow() {
 	
 	return (
 		<div className="mainWindow">
-			<CaseInfo />
-			<CourtDate />
+			<div className="border">
+				<CaseInfo />
+			</div>
+			<div className="border">
+				<CourtDate />
+			</div>
 			<div className="App">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>{helloWorld}</p>

@@ -7,7 +7,7 @@ function TStatus() {
 	helloWorld = 'transcript status';
 
 	return (
-		<div className="mainWindow">
+		<div className="mainWindow border">
 			<div className="App">
 				<p>{helloWorld}</p>
 			</div>
