@@ -84,10 +84,14 @@ function TStatus() {
 	return (
 		<div id="priceQuote" className="form-popup">
 			<div className="form-container">
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
 				<section className="stackedRows">
                     <button type="button" className="btn cancel" onClick={() => { closeForm('priceQuote') }}>
 						Close
 					</button>
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
 				</section>
 
 				<section id="logoHolder" className="stackedRows">
@@ -96,70 +100,18 @@ function TStatus() {
 
 				<h1>
 					<section id="pqChange1" className="stackedRows">
-						Price Quote Calculator:
+						Price Quote Calculator
 					</section>
 				</h1>
-				<br />
-				<br />
-				<h3>
-					<section id="pqChange2" className="stackedRows">
-						Get a price quote on your transcript:
-					</section>
-				</h3>
 				<section className="stackedRows">
 					<form id="orderForm" name="OrderForm">
 						<div className="pqQuestion">
-							<div className="left">
-								<label htmlFor="p1i2" id="p1i2Label" className="labelPQ">
-									Are we ordering audio?
-								</label>
-							</div>
-							<div className="right">
-								<input
-									title="No, we are not ordering audio"
-									id="p1i2"
-									type="radio"
-									name="p1i2"
-									value="No"
-									checked
-									required
-								/>
-								No
-								<input
-									title="Yes, we are ordering audio"
-									id="p1i2"
-									type="radio"
-									name="p1i2"
-									value="Yes"
-									required
-								/>
-								Yes
-							</div>
-						</div>
-						<br />
-						<br />
-						<br />
-						<div className="pqQuestion pq1">
-							<div className="left">
-								<label htmlFor="p1i3">Hard copy (extra charge, $0.25/page + $5/CD)?</label>
-							</div>
-							<div className="right">
-								<input
-									title="No hard copy"
-									id="p1i3"
-									type="radio"
-									name="p1i3"
-									value="No"
-									checked
-									required
-								/>
-								No
-								<input title="Yes, hard copy" id="p1i3" type="radio" name="p1i3" value="Yes" required />
-								Yes
+                            <div className="left">
+                                <p>Us ordering audio for you may or may not incur an extra charge.  A hard copy incurs an extra charge of $0.25/page + $5/CD burned.  These two possibilities are not accounted for in the calculator below.</p>
+
 							</div>
 						</div>
 
-						<br />
 						<br />
 						<br />
 						<br />
@@ -179,8 +131,6 @@ function TStatus() {
 							</div>
 						</div>
 						<br />
-						<br />
-						<br />
 						<div id="turnaroundDiv" className="pqQuestion pq1">
 							<div id="insideTAD" className="left">
 								<label htmlFor="turnaround">
@@ -197,8 +147,19 @@ function TStatus() {
 							</div>
                         </div>
                         <div id="priceQuoteBox" className="pqQuestion pq1">
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
+                            <label htmlFor="tPrice2">Total Price Estimate/Deposit:</label>
                             <input title="price estimate" id="tPrice2" name="tPrice2" />
                         </div>
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
+				<section className="stackedRows">
+                    <button type="button" className="btn cancel" onClick={() => { closeForm('priceQuote') }}>
+						Close
+					</button>
+				</section>
+                        <div>&nbsp;</div>
                         <div>&nbsp;</div>
 					</form>
 				</section>
