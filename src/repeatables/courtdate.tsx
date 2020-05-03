@@ -9,7 +9,7 @@ import TStatus from "./courtdate/tStatus";
 
 function CourtDate() {
 	let helloWorld: string;
-	helloWorld = 'CourtDate';
+	helloWorld = 'CourtDate:';
 
 	return (
 		<div className="mainWindow border">
