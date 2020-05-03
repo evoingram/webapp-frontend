@@ -5,6 +5,7 @@ import '../css/mainWindow.css';
 import MenuBar from './menuBar';
 import CaseInfo from "../repeatables/caseInfo";
 import CourtDate from "../repeatables/courtdate";
+import CaseActions from './caseActions';
 
 
 function MainWindow() {
@@ -16,6 +17,7 @@ function MainWindow() {
 		<div className="mainWindow">
 			<div className="border">
 				<CaseInfo />
+				<CaseActions />
 			</div>
 			<div className="border">
 				<CourtDate />
