@@ -15,27 +15,27 @@
 
   - MenuBar/top
 
-        - buttons
-        - calculator
-        - logo
+        - buttons (home, calculator, logout)
+            - add inside out underline animation
+        - logo (fix responsive @ small screens)
 
     - caseBar/left
 
       - profileInfo
 
-        - caseinfo
+        - caseInfo
 
     - mainWindow/right
 
       - caseinfo
 
-            - caseinfo
-            - caseCommands
+            - caseInfo
+            - caseActions
 
         - courtdate
 
           - commHistory
-          - general
+          - courtdateInfo
           - tStatus
           - files
           - invoice
