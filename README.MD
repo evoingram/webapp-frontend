@@ -9,6 +9,26 @@
 
 ## [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)
 
+## [Adobe XD Wireframe](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)
+
 ## Component Plan
 
-TBD
+- App
+  - MenuBar/top
+    - buttons (home, calculator, logout)
+      - add inside out underline animation
+    - logo (fix responsive @ small screens)
+  - caseBar/left
+    - profileInfo
+    - caseInfo
+  - mainWindow/right
+    - caseinfo
+      - caseInfo
+      - caseActions
+    - courtdate
+      - commHistory
+      - courtdateInfo
+      - tStatus
+      - files
+      - invoice
+- chat bot bottom right corner
