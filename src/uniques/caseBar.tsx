@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../css/App.css';
+import ProfileInfo from './profileInfo';
+import CaseInfo from "../repeatables/caseInfo";
 
 
 function CaseBar() {
@@ -10,6 +11,9 @@ function CaseBar() {
   learnReact = 'Learn React';
   return (
 		<div className="App">
+		  <ProfileInfo />
+		  <button>Add a Case</button>
+		  <CaseInfo />
 			<header className="App-header">
 				<p>{helloWorld}</p>
 				<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">

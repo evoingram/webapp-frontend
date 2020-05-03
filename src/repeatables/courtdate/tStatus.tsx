@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/App.css';
-import '../css/mainWindow.css';
+import '../../css/App.css';
+import '../../css/mainWindow.css';
 
 function TStatus() {
 	let helloWorld: string;
