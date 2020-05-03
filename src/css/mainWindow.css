@@ -1,3 +1,7 @@
+.mainWindow {
+    background-color: #002244;
+}
+
 #container {
     display: flex;
     flex-wrap: nowrap;
@@ -5,9 +9,11 @@
     flex: 1;
     width: 100%;
     overflow: hidden;
+    background-color: #002244;
+    color: #69be28;
 }
 
-#container > #firstColumn {
+#container>#firstColumn {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -18,7 +24,7 @@
     min-width: 60%;
 }
 
-#container > #secondColumn {
+#container>#secondColumn {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

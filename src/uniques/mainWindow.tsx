@@ -1,22 +1,20 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../css/App.css';
+import '../css/mainWindow.css';
 import MenuBar from './menuBar';
 
 
 function MainWindow() {
 	
   	let helloWorld: string;
-  	let learnReact: string;
-  	helloWorld = 'Hello World!';
-	learnReact = 'Learn React';
+  	helloWorld = 'MAIN WINDOW SHOWING INDIVIDUAL DATES (TRANSCRIPTS) FOR EACH CASE';
 	
 	return (
-		<div>
+		<div className="mainWindow">
 			<div className="App">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>{helloWorld}</p>
-				<p>MAIN WINDOW</p>
 			</div>
 		</div>
 	);
