@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../css/App.css';
-import '../../css/mainWindow.css';
+import '../css/App.css';
+import '../css/mainWindow.css';
 
 
 // price quote calculator
@@ -195,7 +195,11 @@ function TStatus() {
 									<option value="1">1 calendar day</option>
 								</select>
 							</div>
-						</div>
+                        </div>
+                        <div id="priceQuoteBox" className="pqQuestion pq1">
+                            <input title="price estimate" id="tPrice2" name="tPrice2" />
+                        </div>
+                        <div>&nbsp;</div>
 					</form>
 				</section>
 			</div>

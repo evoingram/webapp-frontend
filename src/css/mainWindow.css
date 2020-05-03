@@ -45,6 +45,7 @@
     color: #a5acaf;
     max-height: 75vh;
     overflow-y: scroll;
+    max-width: 40%;
 }
 
 .form-popup p {
