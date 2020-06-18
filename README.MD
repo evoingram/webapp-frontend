@@ -75,3 +75,4 @@ Cypress testing will be completed in a future release.
       - files
       - invoice
 - chat bot bottom right corner
+
