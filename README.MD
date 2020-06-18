@@ -41,8 +41,7 @@ Cypress testing will be completed in a future release.
 
 ## Documentation
 
-### [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)
-### [ADOBE XD WIREFRAME](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)
+### [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)   |   [ADOBE XD WIREFRAME](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)
 
 ### Component Plan
 
@@ -68,9 +67,6 @@ Cypress testing will be completed in a future release.
 - chat bot bottom right corner
 
 ## Back End Resources
-### [BACK END](https://github.com/evoingram/webapp-backend/)
-### [DB SCHEMA](https://dbdesigner.page.link/gbEtfTr1XjgwDa2C7)
-### [BASE URL](https://transcript-webapp.herokuapp.com/api)
-### [BACK END ENDPOINTS](https://github.com/evoingram/webapp-backend/blob/master/docs/endpoints.md)
-### [BACK END POSTMAN DOCUMENTATION](https://documenter.getpostman.com/view/6401823/SzRxWAvu?version=latest)
+### [BACK END](https://github.com/evoingram/webapp-backend/)   |   [DB SCHEMA](https://dbdesigner.page.link/gbEtfTr1XjgwDa2C7)   |   [BASE URL](https://transcript-webapp.herokuapp.com/api)   |   [ENDPOINTS](https://github.com/evoingram/webapp-backend/blob/master/docs/endpoints.md)
+### [POSTMAN DOCUMENTATION](https://documenter.getpostman.com/view/6401823/SzRxWAvu?version=latest)
 - Postman docs contain examples of all get, post, and put endpoint body submissions AND responses.
