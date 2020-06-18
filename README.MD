@@ -66,6 +66,10 @@ Cypress testing will be completed in a future release.
       - invoice
 - chat bot bottom right corner
 
+### Speech Recognition
+
+There is also a working speech recognition component of the VB database (planned for a future release with this front end) that I have never used because I need something more robust than PocketSphinx; it will do things at the click of a button like record the audio in the proper format, complete the speech recognition, and auto-feed the engine audio & transcripts to make it more accurate. It formats court transcripts into an engine-readable format. A chunk of it was done using batch files, but comes out of VBA & starts from clicking an Access form button.  What held me back in this process was I need to figure out a way to build a big dictionary against which to use it, and i can't use PocketSphinx for the engine because of the dictionary size need.  Using the smaller version results in having to use too small a dictionary, which makes for a very inaccurate read due to the high level of vocabulary and varying people in any given court situation, generally speaking.  But other than that, the process is solid.
+
 ## Back End Resources
 ### [BACK END](https://github.com/evoingram/webapp-backend/)   |   [DB SCHEMA](https://dbdesigner.page.link/gbEtfTr1XjgwDa2C7)   |   [BASE URL](https://transcript-webapp.herokuapp.com/api)   |   [ENDPOINTS](https://github.com/evoingram/webapp-backend/blob/master/docs/endpoints.md)
 ### [POSTMAN DOCUMENTATION](https://documenter.getpostman.com/view/6401823/SzRxWAvu?version=latest)
