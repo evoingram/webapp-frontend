@@ -2,6 +2,10 @@
 
 # Transcript Web App Front End Product Overview (in progress) 
 
+## My Role
+
+This was a solo project.
+
 ## Project Description
 
 This is the front end for the online port of my company's VB database, which is used for transcript production and workflow management.  The VB database does everything from scheduling to automated shorthand to automated hyperlinking and document formatting, shipping, production, management of company financials, and other business operations.  The back end was designed and created to support a front end that also does such things.  Copyright 2020 Erica Ingram.
