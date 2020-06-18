@@ -17,7 +17,7 @@ This is the front end for the online port of my company's VB database, which is 
 - Auto-creates and formats Word versions
 - Tracks communication and document history of each transcript order
 - Manages and plays audio and reporter notes
-- Integrated with Office, Acrobat, and WinSCP libraries and several APIs such as CourtListener, Wunderlist, PayPal, OneNote, and others
+- Integrated with Office, Acrobat, and WinSCP libraries and several APIs such as CourtListener, PayPal, OneNote, and others
 - More to come; check the Product Vision Document for more info!
 
 ## Tech Stack
