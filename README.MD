@@ -1,6 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9e220220e7d71d3e13a8/maintainability)](https://codeclimate.com/github/evoingram/webapp-frontend/maintainability)
 
-# Transcript Web App Front End (in progress) Product Overview
+# Transcript Web App Front End Product Overview (in progress) 
 
 ## Project Description
 
