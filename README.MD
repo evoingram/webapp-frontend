@@ -9,6 +9,7 @@ This is the front end for the online port of my company's VB database, which is 
 ## Key Planned Features 
 
 - Live solo project
+- Integrates GTD principles into workflow
 - Generates 25 to 30 different documents automatically such as price quotes, invoices, cover pages, indexes, and others
 - Manages schedule and production workflow
 - Auto-imports electronic communication
