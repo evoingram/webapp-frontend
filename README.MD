@@ -11,7 +11,7 @@ This is the front end for the online port of my company's VB database, which is 
 - Live solo project
 - Generates 25 to 30 different documents automatically such as price quotes, invoices, cover pages, indexes, and others
 - Manages schedule and production workflow
-- Auto-imports e-mails from Outlook
+- Auto-imports electronic communication
 - Automatically hyperlinks authority within transcripts via CourtListener API
 - Manipulates PDFs to auto-generate bookmarks and create different transcript versions
 - Auto-creates and formats Word versions
