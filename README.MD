@@ -54,7 +54,7 @@ Cypress testing will be completed in a future release.
 
 ## Documentation
 
-### [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)   |   [ADOBE XD WIREFRAME](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)   |   [CUSTOMER USE CASE DIAGRAM](https://github.com/evoingram/webapp-backend/blob/master/docs/use%20case.jpg)
+### [PRODUCT VISION](https://aquoco-my.sharepoint.com/:w:/g/personal/evoingram_aquoco_onmicrosoft_com/ES9-HPl3otdAjjtMrqpWIrkBMTrLyRDvxVEtYGkOMWLDUQ?e=fXTfhK)   |   [ADOBE XD WIREFRAME](https://github.com/evoingram/webapp-frontend/blob/master/docs/Dashboard.xd)   |   [CUSTOMER USE CASE DIAGRAM](https://github.com/evoingram/webapp-backend/blob/master/docs/use%20case.jpg)   |   [MANAGER USE CASE DIAGRAM](https://github.com/evoingram/webapp-backend/blob/master/docs/manager%20UCD.jpg)
 
 ### Component Plan
 
